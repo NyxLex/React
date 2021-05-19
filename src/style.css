@@ -1,0 +1,289 @@
+.body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  font-family: "Arial", sans-serif;
+  /* Style inputs */
+  /* Style the container/contact section */
+  /* Create two columns that float next to eachother */
+  /* Clear floats after the columns */
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+}
+
+.body .block {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  background-color: #f1fffe;
+}
+
+.body .block .budget_img {
+  width: 360px;
+  max-width: 100%;
+  height: auto;
+}
+
+.body .block .budget {
+  padding-top: 25%;
+  width: 340px;
+  max-width: 100%;
+  height: auto;
+}
+
+.body .block .first_block {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.body .block .first_block .text_block {
+  text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1), 10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
+  width: auto;
+  max-width: 360px;
+  height: auto;
+  font-size: 26px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.body .block .first_block .control_money {
+  margin-top: 80px;
+  width: auto;
+  max-width: 360px;
+  height: auto;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+@media (max-width: 768px) {
+  .body .block .first_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.body label {
+  display: block;
+  font: .9rem 'Fira Sans', sans-serif;
+}
+
+.body input[type='submit'],
+.body label {
+  margin-top: 1rem;
+}
+
+.body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body input[type=text], .body select, .body textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.body input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.body input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.body .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.body .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.body .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .body .column, .body input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.body .hitler {
+  height: auto;
+  width: auto;
+  height: 2000px;
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#63ff7d), color-stop(#64f581), color-stop(#66ec85), color-stop(#67e28a), color-stop(#69d98e), color-stop(#6acf92), color-stop(#64b790), color-stop(#5d9f8e), color-stop(#57878c), color-stop(#516f89), color-stop(#4a5787), to(#443f85));
+  background-image: linear-gradient(to top right, #63ff7d, #64f581, #66ec85, #67e28a, #69d98e, #6acf92, #64b790, #5d9f8e, #57878c, #516f89, #4a5787, #443f85);
+}
+
+.body .info {
+  padding: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid black;
+  padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .body .info {
+    border: none;
+  }
+}
+
+.body .images {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .body .images {
+    display: none;
+  }
+}
+
+.body .blank {
+  padding: 10%;
+}
+
+.body .ul_create {
+  border: 2px solid #111010;
+}
+
+.body .ul_send {
+  border: 2px solid #050505;
+}
+
+.body .zz {
+  color: black;
+}
+
+.body .loginmy {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login form {
+  height: 200px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#63ff7d), color-stop(#64f581), color-stop(#66ec85), color-stop(#67e28a), color-stop(#69d98e), color-stop(#6acf92), color-stop(#64b790), color-stop(#5d9f8e), color-stop(#57878c), color-stop(#516f89), color-stop(#4a5787), to(#443f85));
+  background-image: linear-gradient(to top right, #63ff7d, #64f581, #66ec85, #67e28a, #69d98e, #6acf92, #64b790, #5d9f8e, #57878c, #516f89, #4a5787, #443f85);
+}
+
+.contact form {
+  height: 200px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#63ff7d), color-stop(#64f581), color-stop(#66ec85), color-stop(#67e28a), color-stop(#69d98e), color-stop(#6acf92), color-stop(#64b790), color-stop(#5d9f8e), color-stop(#57878c), color-stop(#516f89), color-stop(#4a5787), to(#443f85));
+  background-image: linear-gradient(to top right, #63ff7d, #64f581, #66ec85, #67e28a, #69d98e, #6acf92, #64b790, #5d9f8e, #57878c, #516f89, #4a5787, #443f85);
+}
+/*# sourceMappingURL=style.css.map */

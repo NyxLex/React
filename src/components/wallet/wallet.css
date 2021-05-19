@@ -1,0 +1,10 @@
+.wallet-item {
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 220px;
+	padding: 0.5rem;
+	background-color: rgb(69, 151, 124);
+}

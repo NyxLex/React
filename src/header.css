@@ -1,0 +1,89 @@
+.header {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#34ad5c), color-stop(#37b35e), color-stop(#39b860), color-stop(#3cbe63), color-stop(#3ec365), color-stop(#41c967), color-stop(#43c766), color-stop(#45c565), color-stop(#48c364), color-stop(#4ac162), color-stop(#4cbf61), to(#4ebd60));
+  background-image: linear-gradient(to top, #34ad5c, #37b35e, #39b860, #3cbe63, #3ec365, #41c967, #43c766, #45c565, #48c364, #4ac162, #4cbf61, #4ebd60);
+  height: auto;
+  width: auto;
+}
+
+.header .wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #666666;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+.header .coin {
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+}
+
+.header .header_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.header .logger > li {
+  color: #54cf69;
+  border-bottom: 1px dashed;
+  outline: none;
+  border: none;
+}
+
+.header .nav > li {
+  color: #54cf69;
+  border-bottom: 1px dashed;
+  outline: none;
+  border: none;
+  padding-left: 23px;
+  margin-left: 22px;
+  padding-bottom: 20px;
+}
+
+.header .nav > li::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.header .registr {
+  padding-left: 2rem;
+}
+/*# sourceMappingURL=header.css.map */
